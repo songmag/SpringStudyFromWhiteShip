@@ -12,12 +12,10 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.web.context.WebApplicationContext;
 
 public class ServletTest extends HttpServlet {
-	
 	@Override
 	public void init() throws ServletException {
 		System.out.println("Init");
 	}
-
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		System.out.println("DoGET");

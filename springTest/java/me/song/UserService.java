@@ -1,11 +1,13 @@
 package me.song;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class UserService {
+
 	
-	String getHello()
+	public String getHello()
 	{
 		return "Service provide name Song!!";
 	}
