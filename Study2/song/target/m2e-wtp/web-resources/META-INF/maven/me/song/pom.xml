@@ -36,13 +36,56 @@
     <version>4.1.1.RELEASE</version>
     
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-jdbc</artifactId>
+    <version>4.1.1.RELEASE</version>
+</dependency>
+
     <!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
 <dependency>
     <groupId>javax.servlet</groupId>
     <artifactId>jstl</artifactId>
     <version>1.2</version>
 </dependency>
-    
+<!-- You must write for BlogPost. Because this library add pom.xml very special case -->
+<!-- https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload -->
+<!-- Hard Dependency CommonsMultiPartResolver -->
+<dependency>
+    <groupId>commons-fileupload</groupId>
+    <artifactId>commons-fileupload</artifactId>
+    <version>1.4</version>
+</dependency>
+
+<!-- JPA Pack -->
+<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa -->
+<dependency>
+    <groupId>org.springframework.data</groupId>
+    <artifactId>spring-data-jpa</artifactId>
+    <version>2.2.4.RELEASE</version>
+</dependency>
+    <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis-spring -->
+<dependency>
+    <groupId>org.mybatis</groupId>
+    <artifactId>mybatis-spring</artifactId>
+    <version>2.0.3</version>
+</dependency>
+<!--  Validation Annotation Dependency -->
+    <!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
+<dependency>
+    <groupId>javax.validation</groupId>
+    <artifactId>validation-api</artifactId>
+    <version>2.0.1.Final</version>
+</dependency>
+    <!-- https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator -->
+<dependency>
+    <groupId>org.hibernate.validator</groupId>
+    <artifactId>hibernate-validator</artifactId>
+    <version>6.1.2.Final</version>
+</dependency>
+    <!-- Hibernate Validator -->
   </dependencies>
   <build>
     <finalName>song</finalName>
